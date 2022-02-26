@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(/imagens/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+}
+
+main {
+    padding: 40px;
+    background-color: white;
+    margin: auto;
+    width: 1200px;
+    height: auto;  
+    display: grid;
+    place-items: center;
+    grid-gap: 80px;
+}
+
+main .text{
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+}
+
+main .grid4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 1 2 1;
+    grid-gap: 60px;
+}
+
+main .grid4 .grid{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(230, 227, 221);
+    
+}
+
+
