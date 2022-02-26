@@ -12,31 +12,41 @@ body{
 main {
     padding: 40px;
     background-color: white;
-    margin: auto;
-    width: 1200px;
-    height: auto;  
+    margin: auto; 
     display: grid;
     place-items: center;
-    grid-gap: 80px;
 }
 
 main .text{
     font-family: "Nunito", sans-serif;
     text-align: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin: -20px;
+}
+
+h2{
+    color: rgb(20, 135, 189)
+}
+
+small{
+    font-size: 14px;
 }
 
 main .grid4{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 1 2 1;
-    grid-gap: 60px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
 }
 
 main .grid4 .grid{
     width: 300px;
     height: 200px;
     background-color: rgb(230, 227, 221);
-    
+    border-top: 8px solid rgba(115, 194, 197, 0.514); 
 }
+
 
 
