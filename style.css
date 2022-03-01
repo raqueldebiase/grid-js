@@ -1,52 +1,98 @@
-body{
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+
+body{
     background-image: url(/imagens/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    display: grid;
 }
 
-main {
-    padding: 40px;
-    background-color: white;
-    margin: auto; 
-    display: grid;
-    place-items: center;
+.box{
+    width: 60vw;
+    margin: 100px auto;
+    padding: 100px;
+    background-color: #ffffff;
+    border-radius: 5px;
 }
 
-main .text{
-    font-family: "Nunito", sans-serif;
+.text {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
+    gap: 20px;
 }
 
-h1{
-    margin: -20px;
-}
-
-h2{
-    color: rgb(20, 135, 189)
-}
-
-small{
-    font-size: 14px;
-}
-
-main .grid4{
+.grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    align-items: center;
 }
 
-main .grid4 .grid{
-    width: 300px;
-    height: 200px;
-    background-color: rgb(230, 227, 221);
-    border-top: 8px solid rgba(115, 194, 197, 0.514); 
+.row{
+    display: grid;
+    gap: 20px;
 }
 
+.card {
+    padding: 20px;
+    border: 1px solid rgba(141, 148, 150, 0.651);
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px 1px rgba(0,0,0,0.1);
+    display: grid;
+}
 
+.card span{
+    display: flex;
+    justify-content: end;
+    color: rgba(20, 136, 156, 0.61);
+}
 
+@media screen and (max-width: 800px){
+    .grid{
+        grid-gap: 5px;
+    }
+    .row{
+        gap: 5px;
+    }
+    .card{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .box{
+        width: 60%;
+        margin: 40px auto;
+        padding: 60px;
+        background-color: #ffffff;
+        border-radius: 5px;
+
+    }
+    .text {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .text h1{
+        margin-bottom: 15px;
+        font-size: 15;
+    }
+    .text h2{
+        margin-bottom: 10px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 20px;
+        align-items: center;
+        width: 100%;
+    }
+    
+}
