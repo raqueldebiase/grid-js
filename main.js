@@ -2,11 +2,11 @@ document.getElementById("mouseEvent").addEventListener("mouseenter", mouseEnter)
 document.getElementById("mouseEvent").addEventListener("mouseleave", mouseleave);
 
 function mouseEnter (){
-    document.getElementById("mouseEvent").style.border = "3px solid gray";
+    document.getElementById("mouseEvent").style.borderTop = "4px solid indianred";
 }
 
 function mouseleave (){
-    document.getElementById("mouseEvent").style.border ="1px solid rgba(141, 148, 150, 0.651)";
+    document.getElementById("mouseEvent").style.borderTop= "4px solid rgba(35, 166, 202, 0.651)";
 } 
     
 
