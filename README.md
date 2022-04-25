@@ -2,7 +2,7 @@
 
 Exercício para a prática do CSS Grid Layout, assim como Javascript na função mouseEnter + mouseLeave.
 
-Técnologias utilizadas: HTML, CSS, JS. 
+Tecnologias utilizadas: HTML, CSS, JS, Figma.  
 
 Link para projeto completo: 
 https://keen-archimedes-b97637.netlify.app/
