@@ -1,6 +1,6 @@
 # grid Layout 
 
-Exercício para a prática do CSS Grid Layount, assim como Javascript na função mouseEnter + mouseLeave.
+Exercício para a prática do CSS Grid Layout, assim como Javascript na função mouseEnter + mouseLeave.
 
 Técnologias utilizadas: HTML, CSS, JS. 
 
