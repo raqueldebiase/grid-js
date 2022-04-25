@@ -8,6 +8,7 @@ Link para projeto completo:
 https://keen-archimedes-b97637.netlify.app/
 
 
-![grid](https://user-images.githubusercontent.com/94414829/165056594-4656ceeb-f04b-4eae-a498-5aa51bba1d74.svg)
+
+![Frame 1](https://user-images.githubusercontent.com/94414829/165148692-21e3fb0f-2bb3-40b2-a5b6-4849fb690633.svg)
 
 
